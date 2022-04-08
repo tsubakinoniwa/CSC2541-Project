@@ -7,7 +7,7 @@ import memory_profiler
 
 from jax import jit, value_and_grad
 from functools import partial
-from hf.optimizer import hf
+from .optimizer import hf
 from tqdm.notebook import trange
 from jax.config import config
 
